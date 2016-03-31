@@ -277,6 +277,11 @@ a.anchor {
 	margin: 0;
 }
 
+#contact-form h2 {
+	margin-top: 0;
+	padding-top: 20px;
+}
+
 @media (max-width: 479px) {
   #contact-info, #contact-info h1, #contact-info i {
   	color: #606163;

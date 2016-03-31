@@ -235,31 +235,30 @@ a.anchor {
 	background-size: contain;
 	height: 100%;
 	text-align: right;
-	color: rgba(226,240,247,255);
+	color: rgb(226,240,247);
 	margin: 0;
 }
 
 #contact-info h1 {
 	color: rgb(226,240,247);
-	padding-top: 35px;
-	padding-right: 4%;
-	margin-bottom: 0;
+	margin-top: 35px;
 }
 
 #contact-info p {
 	font-size: 20px;
-	padding: 0 4%;
-	margin: 0;
 }
 
-#contact-info div {
-	margin: 50px;
+#contact-name {
+	padding: 40px;
+}
+
+#phone {
+	padding: 40px 40px 0 0;
 }
 
 #contact-info ul {
-	margin-right: 50px;
-	padding-right: 4%;
-	padding-top: 30px;
+	padding-right: 40px;
+	padding-top: 0;
 }
 
 #contact-info i {
@@ -267,9 +266,14 @@ a.anchor {
 	padding-left: 50%;
 }
 
-
 #contact-form {
 	background: #E7E8E9;
 	height: 100%;
 	margin: 0;
+}
+
+@media (max-width: 479px) {
+  #contact-info, #contact-info h1, #contact-info i {
+  	color: #606163;
+  }
 }

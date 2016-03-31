@@ -1,0 +1,267 @@
+/********** Fonts **********/
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirNextLTPro-Cn.otf);
+}
+
+body {
+	font-family: Avenir, Helvetica, sans-serif;
+	color: #606163;
+}
+
+h1, h2 {
+	color: #0090C3;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+/********** Navbar **********/
+#brand {
+	height: 113px;
+	margin-top: -30px;
+	margin-left: -34px;
+}
+
+.nav i {
+	padding-top: 25px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+}
+
+.navbar-default {
+  background-color: #96989b;
+  border-color: #96989b;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-brand {
+  color: #dddedf;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #96989b;
+}
+.navbar-default .navbar-text {
+  color: #dddedf;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #dddedf;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #96989b;
+  background-color: #dddedf;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #96989b;
+  background-color: #dddedf;
+}
+.navbar-default .navbar-toggle {
+  border-color: #dddedf;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #dddedf;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #dddedf;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #dddedf;
+}
+.navbar-default .navbar-link {
+  color: #dddedf;
+}
+.navbar-default .navbar-link:hover {
+  color: #96989b;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #dddedf;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #96989b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #96989b;
+    background-color: #dddedf;
+  }
+}
+
+/********** Splash screen **********/
+#splash {
+	background: url(../images/vn-cityscape.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	margin-top: 75px;
+	text-align: right;
+	padding-right: 15%;
+}
+
+@media (max-width: 767px) {
+  #splash {
+  	padding-right: 5%;
+  }
+}
+
+#splash h1 {
+	margin-bottom: 0;
+	padding-top: 75px;
+	font-size: 50px;
+}
+
+#splash h3 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+/********** Projects **********/
+#projects {
+	background: #E7E8E9;
+	padding: 20px;
+}
+
+#projects li  a {
+	color: #606163;
+}
+
+#projects li  a:hover{
+	color: #0090C3;
+	text-decoration: none;
+}
+
+#projects li {
+	list-style-type: none;
+	padding-bottom: 4px;
+}
+
+#projects h2 {
+	padding-left: 10px;
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+
+#projects h3 {
+	padding-top: 0;
+	margin-top: 10px;
+	color: #0090C3;
+}
+
+#projects h4 {
+	padding-top: 10px;
+}
+
+#projects p {
+	font-size: 20px;
+}
+
+.project-blurb {
+	text-align: right;
+	margin-bottom: 30px;
+}
+
+#projects img {
+	width: 100%;
+}
+
+#projects i {
+	padding-left: 10px;
+}
+
+/********** About *********/
+#about {
+	padding: 60px 0;
+	text-align: right;
+	font-size: 20px;
+}
+
+#about h2 {
+	font-size: 60px;
+	padding-bottom: 20px;
+}
+
+#about p {
+	margin-bottom: 40px;
+}
+
+#about img {
+	padding-left: 40px;
+}
+
+/********** Contact **********/
+#contact {
+	height: 400px;
+}
+
+#contact-info {
+	background: rgb(90,183,219);
+	background-image: url(../images/k.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100%;
+	text-align: right;
+	color: rgba(226,240,247,255);
+	margin: 0;
+}
+
+#contact-info h1 {
+	color: rgb(226,240,247);
+	padding-top: 35px;
+	padding-right: 4%;
+	margin-bottom: 0;
+}
+
+#contact-info p {
+	font-size: 20px;
+	padding: 0 4%;
+	margin: 0;
+}
+
+#contact-info div {
+	margin: 50px;
+}
+
+#contact-info ul {
+	margin-right: 50px;
+	padding-right: 4%;
+	padding-top: 30px;
+}
+
+#contact-info i {
+	color: rgb(226,240,247);
+	padding-left: 50%;
+}
+
+
+#contact-form {
+	background: #E7E8E9;
+	height: 100%;
+	margin: 0;
+}

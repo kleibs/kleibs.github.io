@@ -9,16 +9,20 @@ body {
 	color: rgba(96,97,99,255);
 }
 
-h1 {
-	/*letter-spacing: 2px;*/
-}
-
 h1, h2 {
 	color: rgba(0,144,195,255);
 }
 
+h2 {
+	font-size: 45px;
+}
+
 h3 {
-	/*color: rgba(96,97,99,255);*/
+	font-size: 35px;
+}
+
+h4 {
+	font-size: 23px;
 }
 
 #brand {
@@ -90,20 +94,35 @@ h3 {
 
 #projects h2 {
 	padding-left: 10px;
+	padding-bottom: 25px;
+	letter-spacing: 4px;
 }
 
 #projects h3 {
+	padding-top: 0;
+	margin-top: 10px;
 	color: rgba(0,144,195,255);
+}
+
+#projects h4 {
+	padding-top: 10px;
+}
+
+#projects p {
+	font-size: 20px;
 }
 
 .project-blurb {
 	text-align: right;
-	/*padding-right: 15px;*/
 	margin-bottom: 30px;
 }
 
 #projects img {
 	width: 100%;
+}
+
+#projects i {
+	padding-left: 10px;
 }
 
 
@@ -116,7 +135,7 @@ h3 {
 	background-image: url(k.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: inherit;
+	height: 100%;
 	text-align: right;
 	color: rgba(226,240,247,255);
 }
@@ -146,13 +165,13 @@ h3 {
 
 #contact-info i {
 	color: rgba(226,240,247,255);
-	padding-left: 50px;
+	padding-left: 50%;
 }
 
 
 #contact-form {
 	background: rgba(231,232,233,255);
-	height: inherit;
+	height: 100%;
 	margin-bottom: 0
 }
 

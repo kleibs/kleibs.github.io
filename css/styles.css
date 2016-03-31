@@ -25,6 +25,14 @@ h4 {
 	font-size: 23px;
 }
 
+a.anchor {
+  display: block; 
+  position: relative; 
+  top: -75px; 
+  visibility: hidden;
+}
+
+
 /********** Navbar **********/
 #brand {
 	height: 113px;
@@ -143,42 +151,42 @@ h4 {
 }
 
 /********** Projects **********/
-#projects {
+#projects-content {
 	background: #E7E8E9;
 	padding: 20px;
 }
 
-#projects li  a {
+#projects-content li  a {
 	color: #606163;
 }
 
-#projects li  a:hover{
+#projects-content li  a:hover{
 	color: #0090C3;
 	text-decoration: none;
 }
 
-#projects li {
+#projects-content li {
 	list-style-type: none;
 	padding-bottom: 4px;
 }
 
-#projects h2 {
+#projects-content h2 {
 	padding-left: 10px;
 	padding-bottom: 25px;
 	letter-spacing: 4px;
 }
 
-#projects h3 {
+#projects-content h3 {
 	padding-top: 0;
 	margin-top: 10px;
 	color: #0090C3;
 }
 
-#projects h4 {
+#projects-content h4 {
 	padding-top: 10px;
 }
 
-#projects p {
+#projects-content p {
 	font-size: 20px;
 }
 
@@ -187,36 +195,36 @@ h4 {
 	margin-bottom: 30px;
 }
 
-#projects img {
+#projects-content img {
 	width: 100%;
 }
 
-#projects i {
+#projects-content i {
 	padding-left: 10px;
 }
 
 /********** About *********/
-#about {
+#about-content {
 	padding: 60px 0;
 	text-align: right;
 	font-size: 20px;
 }
 
-#about h2 {
+#about-content h2 {
 	font-size: 60px;
 	padding-bottom: 20px;
 }
 
-#about p {
+#about-content p {
 	margin-bottom: 40px;
 }
 
-#about img {
+#about-content img {
 	padding-left: 40px;
 }
 
 /********** Contact **********/
-#contact {
+#contact-content {
 	height: 400px;
 }
 

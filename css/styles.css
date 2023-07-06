@@ -1,1 +1,301 @@
-@font-face{font-family:Avenir;src:url(../fonts/AvenirNextLTPro-Cn.otf)}body{font-family:Avenir,Helvetica,sans-serif;color:#606163}h1,h2{color:#0090C3}h2{font-size:45px}h3{font-size:35px}h4{font-size:23px}a.anchor{display:block;position:relative;top:-75px;visibility:hidden}#brand{height:113px;margin-top:-30px;margin-left:-34px}.nav i{padding-top:25px}.navbar-brand,.navbar-nav li a{line-height:75px;height:75px}.navbar-default{background-color:#96989b;border-color:#96989b;font-size:20px}.navbar-default .navbar-collapse,.navbar-default .navbar-form,.navbar-default .navbar-toggle{border-color:#dddedf}.navbar-default .navbar-brand{color:#dddedf}.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{color:#96989b}.navbar-default .navbar-nav>li>a,.navbar-default .navbar-text{color:#dddedf}.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{color:#fff}.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus,.navbar-default .navbar-nav>.open>a:hover{color:#96989b;background-color:#dddedf}.navbar-default .navbar-toggle .icon-bar,.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background-color:#dddedf}.navbar-default .navbar-link{color:#dddedf}.navbar-default .navbar-link:hover{color:#96989b}.navbar-default .navbar-toggle:focus .icon-bar,.navbar-default .navbar-toggle:hover .icon-bar{background-color:#000}@media (max-width:767px){.navbar-default .navbar-nav .open .dropdown-menu>li>a{color:#dddedf}.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{color:#96989b}.navbar-default .navbar-nav .open .dropdown-menu>.active>a,.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover{color:#96989b;background-color:#dddedf}.navbar-nav>li>a{height:40px;line-height:40px;padding-top:5px;padding-bottom:5px}}#contact-info ul,#projects-content h4{padding-top:10px}#splash{background:url(../images/vn-cityscape.jpg) center;background-size:cover;height:600px;margin-top:75px;text-align:right;padding-right:15%}@media (max-width:767px){#splash{padding-right:5%}}#splash h1{margin-bottom:0;padding-top:75px;font-size:50px}#about-content,#projects-content p{font-size:20px}#splash h3{padding-top:0;margin-top:0}#projects-content{background:#E7E8E9;padding:20px}#projects-content li a{color:#606163}#projects-content li a:hover{color:#0090C3;text-decoration:none}#projects-content li{list-style-type:none;padding-bottom:4px}#projects-content h2{padding-left:10px;padding-bottom:25px;letter-spacing:4px}#projects-content h3{padding-top:0;margin-top:10px;color:#0090C3}.project-blurb{text-align:right;margin-bottom:30px}#projects-content img{width:100%}#projects-content i{padding-left:10px}#about-content{padding:60px 0;text-align:right}#about-content h2{font-size:60px;padding-bottom:20px}#about-content p{margin-bottom:40px}#about-content img{padding-left:40px}#contact-content{height:400px}#contact-info{background:url(../images/k.png) no-repeat #5ab7db;background-size:contain;height:100%;text-align:right;color:#e2f0f7;margin:0}#contact-info h1{color:#e2f0f7;margin-top:35px}#contact-info a,#contact-info p{color:#e2f0f7;font-size:20px}#contact-name{padding:40px}#phone{padding:40px 40px 0 0}#contact-info ul{padding-right:40px;margin-bottom:0}#contact-info i{color:#e2f0f7;padding-left:50%}#contact-form{background:#E7E8E9;height:100%;margin:0}#contact-form h2{margin-top:0;padding-top:20px}#contact-form button{background:#5ab7db;color:#fff}@media (max-width:479px){#contact-info,#contact-info a,#contact-info h1,#contact-info i,#contact-info p{color:#606163}}
+/********** Fonts **********/
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirNextLTPro-Cn.otf);
+}
+
+body {
+	font-family: Avenir, Helvetica, sans-serif;
+	color: #606163;
+}
+
+h1, h2 {
+	color: #0090C3;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+a.anchor {
+  display: block; 
+  position: relative; 
+  top: -75px; 
+  visibility: hidden;
+}
+
+
+/********** Navbar **********/
+#brand {
+	height: 113px;
+	margin-top: -30px;
+	margin-left: -34px;
+}
+
+.nav i {
+	padding-top: 25px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+}
+
+.navbar-default {
+  background-color: #96989b;
+  border-color: #96989b;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-brand {
+  color: #dddedf;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #96989b;
+}
+.navbar-default .navbar-text {
+  color: #dddedf;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #dddedf;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #96989b;
+  background-color: #dddedf;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #96989b;
+  background-color: #dddedf;
+}
+.navbar-default .navbar-toggle {
+  border-color: #dddedf;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #dddedf;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #dddedf;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #dddedf;
+}
+.navbar-default .navbar-link {
+  color: #dddedf;
+}
+.navbar-default .navbar-link:hover {
+  color: #96989b;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: black;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #dddedf;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #96989b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #96989b;
+    background-color: #dddedf;
+  }
+  .navbar-nav > li > a {
+  	height: 40px;
+    line-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;}
+}
+
+/********** Splash screen **********/
+#splash {
+	background: url(../images/vn-cityscape.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 95vh;
+	margin-top: 75px;
+	text-align: right;
+	padding-right: 15%;
+}
+
+@media (max-width: 767px) {
+  #splash {
+  	padding-right: 5%;
+  }
+}
+
+#splash h1 {
+	margin-bottom: 0;
+	padding-top: 75px;
+	font-size: 50px;
+}
+
+#splash h3 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+/********** Projects **********/
+#projects-content {
+	background: #E7E8E9;
+	padding: 20px;
+}
+
+#projects-content li  a {
+	color: #606163;
+}
+
+#projects-content li  a:hover{
+	color: #0090C3;
+	text-decoration: none;
+}
+
+#projects-content li {
+	list-style-type: none;
+	padding-bottom: 4px;
+}
+
+#projects-content h2 {
+	padding-left: 10px;
+	padding-bottom: 25px;
+	letter-spacing: 4px;
+}
+
+#projects-content h3 {
+	padding-top: 0;
+	margin-top: 10px;
+	color: #0090C3;
+}
+
+#projects-content h4 {
+	padding-top: 10px;
+}
+
+#projects-content p {
+	font-size: 20px;
+}
+
+.project-blurb {
+	text-align: right;
+	margin-bottom: 30px;
+}
+
+#projects-content img {
+	width: 100%;
+}
+
+#projects-content i {
+	padding-left: 10px;
+}
+
+/********** About *********/
+#about-content {
+	padding: 60px 0;
+	text-align: right;
+	font-size: 20px;
+}
+
+#about-content h2 {
+	font-size: 60px;
+	padding-bottom: 20px;
+}
+
+#about-content p {
+	margin-bottom: 40px;
+}
+
+#about-content img {
+	padding-left: 40px;
+}
+
+/********** Contact **********/
+#contact-content {
+	height: 400px;
+}
+
+#contact-info {
+	background: rgb(90,183,219);
+	background-image: url(../images/k.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100%;
+	text-align: right;
+	color: rgb(226,240,247);
+	margin: 0;
+}
+
+#contact-info h1 {
+	color: rgb(226,240,247);
+	margin-top: 35px;
+}
+
+#contact-info p, #contact-info a {
+	color: rgb(226,240,247);
+	font-size: 20px;
+}
+
+#contact-name {
+	padding: 40px;
+}
+
+#phone {
+	padding: 40px 40px 0 0;
+}
+
+#contact-info ul {
+	padding-right: 40px;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+#contact-info i {
+	color: rgb(226,240,247);
+	padding-left: 50%;
+}
+
+#contact-form {
+	background: #E7E8E9;
+	height: 100%;
+	margin: 0;
+}
+
+#contact-form h2 {
+	margin-top: 0;
+	padding-top: 20px;
+}
+
+#contact-form button {
+	background: rgb(90,183,219);
+	color: white;
+}
+
+@media (max-width: 479px) {
+  #contact-info, #contact-info h1, #contact-info a, #contact-info i, #contact-info p {
+  	color: #606163;
+  }
+}
